@@ -1,25 +1,21 @@
-# api-quick-start
+# Lab - Class 401 Python Night
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Project: Back End Deployment
 
-## Customization Steps
+### Author: Pedro Perez Alvarez
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Run `collectstatic` if needed.
-- Optional: Update `api_tester.py`
+### Links and Resources : Django, Postgres, Docker, JWT, GitHub
+
+### Setup : <https://github.com/PGPere/cookie-stand-api>
+
+### How to run application ?
+
+### run => docker compose run web python3 manage.py runserver
+
+### then open browser => Placeholder
+
+### Describe Tests (Placeholder)
+
+#### I used Django’s built in testing tools for
+
+#### username creation, item creation
