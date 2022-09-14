@@ -20,7 +20,7 @@ from django.urls import include, path
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/v1/cookie_stands/", include("cookie_stands.urls")),
-    # path("api-auth/", include("rest_framework.urls")),
+    path("api-auth/", include("rest_framework.urls")),
     # path(
     #     "api/token/",
     #     jwt_views.TokenObtainPairView.as_view(),
