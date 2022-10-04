@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 ## Production Environemnt Set-up - Start ###
 
 env = environ.Env(
-    DEBUG=(bool, False),
+    DEBUG=(bool, True),
     ENVIRONMENT=(str, "PRODUCTION"),
     ALLOW_ALL_ORIGINS=(bool, False),
     ALLOWED_HOSTS=(list, []),
